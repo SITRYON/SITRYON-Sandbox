@@ -1,0 +1,22 @@
+{
+  "event_type": "lead_generation",
+  "identity": {
+    "email": "{{user_email}}",
+    "first_name": "{{user_first_name}}",
+    "locale": "NB_CA"
+  },
+  "affiliate_data": {
+    "amazon_tag": "sitryon0b-20",
+    "target_domain": "amazon.ca",
+    "optimized_url": "{{generated_amazon_link}}"
+  },
+  "metadata": {
+    "source_platform": "Dyad_Core_v1",
+    "revenue_milestone": "PRE_3000_CAD",
+    "timestamp": "{{iso_timestamp}}"
+  },
+  "systeme_io_config": {
+    "tag_name": "SITRYON_SANDBOX_LEAD",
+    "automation_trigger": "post_hook"
+  }
+}
